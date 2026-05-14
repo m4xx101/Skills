@@ -13,8 +13,8 @@ TMPDIR=$(mktemp -d)
 if [[ "$0" == "bash" ]] || [[ "$0" == "/dev/stdin" ]]; then
     # piped via curl | bash — clone the repo
     echo "Detected piped install — cloning from GitHub..."
-    git clone --depth 1 https://github.com/m4xx101/dokploy-skills.git "$TMPDIR/repo"
-    SOURCE="$TMPDIR/repo"
+    git clone --depth 1 https://github.com/m4xx101/hermes-skills.git "$TMPDIR/repo"
+    SOURCE="$TMPDIR/repo/dokploy"
 else
     SOURCE="$(cd "$(dirname "$0")" && pwd)"
 fi

@@ -28,20 +28,20 @@ Agent: "Found my-app. Validated compose syntax. Deploying via API... Deploy comp
 ### Linux / macOS
 
 ```bash
-curl -sSL https://raw.githubusercontent.com/m4xx101/dokploy-skills/main/install.sh | bash
+curl -sSL https://raw.githubusercontent.com/m4xx101/hermes-skills/main/dokploy/install.sh | bash
 ```
 
 ### Windows (PowerShell)
 
 ```powershell
-iwr -useb https://raw.githubusercontent.com/m4xx101/dokploy-skills/main/install.ps1 | iex
+iwr -useb https://raw.githubusercontent.com/m4xx101/hermes-skills/main/dokploy/install.ps1 | iex
 ```
 
 ### From GitHub (Manual)
 
 ```bash
-git clone https://github.com/m4xx101/dokploy-skills.git
-cp -r dokploy-skills/Skills/dokploy ~/.hermes/skills/devops/
+git clone https://github.com/m4xx101/hermes-skills.git
+cp -r hermes-skills/dokploy ~/.hermes/skills/devops/
 ```
 
 ---
