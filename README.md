@@ -1,33 +1,7 @@
-# Hermes Skills — m4xx101
+# m4xx101/Skills (archived)
 
-A catalog of production-grade [Hermes Agent](https://hermes-agent.nousresearch.com/docs) skills.
+Skills have moved to **m4xx101/portfolio-v2/content/skills/**.
 
-## Available Skills
-
-| Skill | Description | Install |
-|---|---|---|
-| [`dokploy`](dokploy/) | Full Dokploy PaaS management — deploy, debug, diagnose, manage | See [dokploy/README.md](dokploy/README.md) |
-
-## Quick Install — All Skills
-
-```bash
-git clone https://github.com/m4xx101/hermes-skills.git
-cp -r hermes-skills/* ~/.hermes/skills/devops/
-```
-
-## Single Skill Install
-
-Each skill directory is self-contained. Copy just the one you need:
-
-```bash
-# Example: just the dokploy suite
-cp -r hermes-skills/dokploy ~/.hermes/skills/devops/
-```
-
-## Contributing
-
-Skills are self-evolving. When you discover a novel root cause or fix, patch the skill via `skill_manage(action='patch', ...)` and submit a PR.
-
-## License
-
-MIT
+This repo is read-only as of 2026-05-18. Historical skills remain
+in their original directories for reference; new skills are published
+directly to portfolio-v2 via the /m4xx-pb-skill skill.
